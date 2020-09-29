@@ -1,0 +1,34 @@
+# ask a user to enter their first name and store it in a variable
+# ask a user to enter their last name and store it in a variable
+# print their full name
+# Make sure you have a space between first and last name
+# Make sure the first letter of first name and last name is uppercase
+# Make sure the rest of the name is lowercase
+
+First_name=input("Please enter your first name: ")
+Last_name=input("Please enter your last name: ")
+print("\nHello" + " " + First_name.capitalize() + " " + Last_name.capitalize())
+
+
+# Ask a user to enter a number
+# Ask a user to enter a second number
+# Calculate the total of the two numbers added together
+# Print 'first number + second number = answer'
+# For example if someone enters 4 and 6 the output should read
+# 4 + 6 = 10
+# Continue these steps for subtraction, multiplication, and division
+
+First_number=input("\nPlease enter the first number: ")
+Second_number=input("Please enter the second number: ")
+Answer1=int(First_number) + int(Second_number)
+Answer2=int(First_number) - int(Second_number)
+Answer3=int(First_number) * int(Second_number)
+Answer4=int(First_number) / int(Second_number)
+print("\nFirst number + Last name = Answer")
+print(str(First_number) + " " + "+" + " " + str(Second_number) + " " + "=" + " " + str(Answer1))
+print("\nFirst number - Second Number = Answer")
+print(str(First_number) + " " + "-" + " " + str(Second_number) + " " + "=" + " " + str(Answer2))
+print("\nFirst number * Second Number = Answer")
+print(str(First_number) + " " + "*" + " " + str(Second_number) + " " + "=" + " " + str(Answer3))
+print("\nFirst number / Second Number = Answer")
+print(str(First_number) + " " + "/" + " " + str(Second_number) + " " + "=" + " " + str(Answer4))
