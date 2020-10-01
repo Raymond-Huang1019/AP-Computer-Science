@@ -1,0 +1,44 @@
+#''String Variables Exercise'''
+# ask a user to enter their first name and store it in a variable
+First_name=input("Please enter your first name: ")
+# ask a user to enter their last name and store it in a variable
+Last_name=input("Please enter your last name: ")
+# print their full name
+# Make sure you have a space between first and last name
+# Make sure the first letter of first name and last name is uppercase
+# Make sure the rest of the name is lowercase
+print("\nHello" + " " + First_name.capitalize() + " " + Last_name.capitalize())
+
+#'''Numeric Variables Exercise'''
+# Ask a user to enter a number
+First_number=input("\nPlease enter the first number: ")
+# Ask a user to enter a second number
+Second_number=input("Please enter the second number: ")
+# Calculate the total of the two numbers added, subtracted, multiplied and divided
+Answer1=int(First_number) + int(Second_number)
+Answer2=int(First_number) - int(Second_number)
+Answer3=int(First_number) * int(Second_number)
+Answer4=int(First_number) / int(Second_number)
+# Be sure to have a print statement for each operation
+print("\nFirst number + Last name = Answer")
+print(str(First_number) + " " + "+" + " " + str(Second_number) + " " + "=" + " " + str(Answer1))
+print("\nFirst number - Second Number = Answer")
+print(str(First_number) + " " + "-" + " " + str(Second_number) + " " + "=" + " " + str(Answer2))
+print("\nFirst number * Second Number = Answer")
+print(str(First_number) + " " + "*" + " " + str(Second_number) + " " + "=" + " " + str(Answer3))
+print("\nFirst number / Second Number = Answer")
+print(str(First_number) + " " + "/" + " " + str(Second_number) + " " + "=" + " " + str(Answer4))
+
+#'''Combining Both to Create an Essay'''
+# Give me an brief paragraph that will include details about you
+Colleges=("Massachusetts Institute of Technology, New York University, Standford University, and Princeton University.")
+print("\nMy name is Raymond Huang and I am a 15 year old male at Staten Island Technical High School. The colleges I would like to apply to are ")
+print(Colleges)
+print("I love to play handball and volleyball. I have also learned hwo to swim.")
+print("I am involved in the chess club and I have volunteered as a tutor alongside other Staten Island Tech students at IS 49.")
+# Be sure to include variables for all colleges you are applying to
+# What your GPA is and a calculation that will demonstrate how to increase it
+# Finally, which activities you are involved in
+# The purpose of this will see how well you can generate a paragraph through print statements
+# string and numeric variables
+# Comments should include brief explanations of different sections of your code
