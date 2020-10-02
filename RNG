@@ -1,0 +1,19 @@
+#generates random numbers
+Random_number_1=random.randint(1,100)
+Random_number_2=random.randint(1,100)
+
+#taking the numbers generated and doing the operations
+Answer1=int(Random_number_1) + int(Random_number_2)
+Answer2=int(Random_number_1) - int(Random_number_2)
+Answer3=int(Random_number_1) * int(Random_number_2)
+Answer4=int(Random_number_1) / int(Random_number_2)
+
+#printing the statements and answers
+print("\nFirst number + Last name = Answer")
+print(str(Random_number_1) + " " + "+" + " " + str(Random_number_2) + " " + "=" + " " + str(Answer1))
+print("\nFirst number - Second Number = Answer")
+print(str(Random_number_1) + " " + "-" + " " + str(Random_number_2) + " " + "=" + " " + str(Answer2))
+print("\nFirst number * Second Number = Answer")
+print(str(Random_number_1) + " " + "*" + " " + str(Random_number_2) + " " + "=" + " " + str(Answer3))
+print("\nFirst number / Second Number = Answer")
+print(str(Random_number_1) + " " + "/" + " " + str(Random_number_2) + " " + "=" + " " + str(Answer4))
