@@ -1,0 +1,29 @@
+# Ask a user their name
+name = input("Please enter your first name: ")
+first = name.capitalize()[0]
+# If their first name starts with A or B
+if first == "A":
+# tell them they go to room AB
+    print("Please go to room AB")
+elif first == "B":
+    print("Please go to room AB")
+# IF their first name starts with C
+elif first == "C":
+# tell them to go to room CD
+    print("Please go to room CD")
+# If their first name starts with another letter, ask for their last name
+else:
+    lastname = input("Please enter your last name: ")
+    lname = lastname.capitalize()[0]
+# IF their last name starts with Z, tell them to go to room Z
+    if lname == "Z":
+        print("Please go to room Z")
+# if their last name starts with any other letter, tell them to go to room OTHER
+    else:
+        print("Please go to room Other")
+# When you are done
+# Anna should be in room AB
+# Bob should be in room AB
+# Charlie should be in room C
+# Khalid Haque should be in room OTHER
+# Xin Zhao should be in room Z
