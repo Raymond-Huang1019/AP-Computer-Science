@@ -1,0 +1,39 @@
+#Question 1: Print First 10 natural numbers using while loop
+x = 0
+while x <= 10:
+    print(x)
+    x += 1
+print(" ")
+
+#Question 2: Print the following pattern
+pattern = [1]
+z = 1
+while len(pattern) < 6:
+    print(pattern)
+    z += 1
+    pattern.append(z)
+print(" ")
+
+#Question 3: Accept number from user and calculate the sum of all number between 1 and given number
+num = int(input("Please input a number: "))
+zero = 0
+addition = 0
+while zero < num:
+    zero += 1
+    addition += zero
+print(addition)
+print(" ")
+
+#Question 4: Print multiplication table of given number
+y = 1
+multiplication = int(input("Please input a number: "))
+while y < 11:
+    print(multiplication*y)
+    y += 1
+print(" ")
+#Question 5: Given a list iterate it and display numbers which are divisible by 5 and if you find number greater than
+#150 stop the loop iteration
+list1 = [12, 15, 32, 42, 55, 75, 122, 132, 150, 180, 200]
+for num in list1:
+    if num % 5 == 0 and num <= 150:
+        print(num)
